@@ -1,0 +1,15 @@
+.navMain {
+    position: absolute;
+    margin-left: 7rem;
+}
+.navMain img {
+    width: 150px;
+    position: relative;
+    top: 1.8rem;
+}
+.navLink {
+    font-size: 0.8rem;
+    margin: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}

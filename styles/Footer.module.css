@@ -1,0 +1,13 @@
+.nexsFooter svg {
+    position: absolute;
+}
+.nexsSocial {
+    position: absolute;
+    color: #849cbf;
+    top: 48rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.nexsSocial svg {
+    margin: 0 50px;
+}
