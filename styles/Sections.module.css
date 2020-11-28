@@ -1,0 +1,112 @@
+.nexsWelcome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1070px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 9rem;
+    padding-bottom: 5rem;
+    align-items: center;
+}
+.nexsWelcome h1 {
+    position: absolute;
+    top: 13rem;
+    font-size: 2rem;
+    color: rgb(247, 250, 252);
+    font-family: nexs;
+}
+
+.nexsWelcome span {
+    background-image: linear-gradient(250deg, #31d7d7 , #6063df);
+    color: rgb(247, 250, 252);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    --transform-translate-x: 0;
+    --transform-translate-y: 0;
+    --transform-rotate: 0;
+    --transform-skew-x: -12deg;
+    --transform-skew-y: 0;
+    --transform-scale-x: 1;
+    --transform-scale-y: 1;
+    transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+    display: inline-block;
+}
+.nexsWelcome img {
+    display: flex;
+    width: 28rem;
+    position: relative;
+    left: 5rem;
+}
+
+.nexsShop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1070px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5rem;
+    align-items: center;
+}
+.nexsShop h1 {
+    position: absolute;
+    top: 40rem;
+    font-size: 2rem;
+    color: rgb(247, 250, 252);
+    font-family: nexs;
+}
+
+.nexsShop span {
+    background-image: linear-gradient(250deg, #31d7d7 , #6063df);
+    color: rgb(247, 250, 252);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    --transform-translate-x: 0;
+    --transform-translate-y: 0;
+    --transform-rotate: 0;
+    --transform-skew-x: -12deg;
+    --transform-skew-y: 0;
+    --transform-scale-x: 1;
+    --transform-scale-y: 1;
+    transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+    display: inline-block;
+}
+.nexsShop img {
+    display: flex;
+    width: 28rem;
+    position: relative;
+    left: 5rem;
+}
+
+@media screen and (max-width: 980px) {
+    .nexsShop {
+        flex-direction: column;
+        max-width: 400px;
+        margin-top: 3rem;
+    }
+    .nexsShop h1 {
+        top: 39rem;
+    }
+    .nexsShop img {
+        flex-direction: row;
+        width: 20rem;
+        left: 2%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .nexsWelcome {
+        flex-direction: column;
+        max-width: 400px;
+        margin-top: 3rem;
+    }
+    .nexsWelcome h1 {
+        top: 10rem;
+    }
+    .nexsWelcome img {
+        flex-direction: row;
+        width: 20rem;
+        left: 2%;
+    }
+}
